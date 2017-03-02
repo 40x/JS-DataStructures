@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="/" class="logo">
+                <img src="/_assets/images/egen-logo.png">
+            </a>
+
+            <button class="btn btn-link" ng-click="headerVm.goBack()"> <- Back</button>
+            <nav class="nav">
+                <span ui-sref="egen.state1">state 1</span>
+                <span ui-sref="egen.state2">state 2</span>
+                <span ui-sref="egen.state3">state 3</span>
+                <span ui-sref="egen.state4({test: true})">state 4</span>
+            </nav>
+        </div>
+    </nav>
+</div>
